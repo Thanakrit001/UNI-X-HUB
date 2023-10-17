@@ -5,7 +5,7 @@ if game.PlaceId == 14840620690 then
 elseif game.PlaceId == 3623096087 then 
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Thanakrit001/UNI-HUB/main/UNI%20HUB", true))()
 elseif game.PlaceId ==  the
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Thanakrit001/Boat/main/UNIHUB", true))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Thanakrit001/Boat1/main/UNIHUB", true))()
 else
     local kickMessage = "ยังไม่รองรับแมพนี้ไอ่สัส"
     game.Players.LocalPlayer:Kick(kickMessage)
