@@ -1,7 +1,12 @@
 repeat wait() until game:IsLoaded()
 
 if game.PlaceId == 14840620690 then 
-  loadstring(game:HttpGet("https://raw.githubusercontent.com/Thanakrit001/BIKE/main/UNIHUB", true))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Thanakrit001/BIKE/main/UNIHUB", true))()
 elseif game.PlaceId == 3623096087 then 
-  loadstring(game:HttpGet("https://raw.githubusercontent.com/Thanakrit001/UNI-HUB/main/UNI%20HUB", true))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Thanakrit001/UNI-HUB/main/UNI%20HUB", true))()
+else
+    local kickMessage = "ยังไม่รองรับแมพนี้ไอ่สัส"
+    game.Players.LocalPlayer:Kick(kickMessage)
+    wait(3)
+    game:Shutdown()
 end
