@@ -13,5 +13,5 @@ until game:IsLoaded()
         game.Players.LocalPlayer:Kick(kickMessage)
         wait(1)
         game:Shutdown()
-    end
 end
+
