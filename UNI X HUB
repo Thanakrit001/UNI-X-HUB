@@ -2,9 +2,6 @@ repeat
     wait()
 until game:IsLoaded()
 
-local key = "https://raw.githubusercontent.com/Thanakrit001/UNIHUBKEY/main/Uuididjdjwii3oeofijsjwbebbddi"
-
-if Key == key then
     if game.PlaceId == 14840620690 then 
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Thanakrit001/BIKE/main/UNIHUB", true))()
     elseif game.PlaceId == 3623096087 then 
