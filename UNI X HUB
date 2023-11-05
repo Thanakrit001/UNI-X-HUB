@@ -1,8 +1,7 @@
--- กูนั่งทำเป็นชั่วโมงเย็ดแม่
 local keyUrl = "https://raw.githubusercontent.com/Thanakrit001/UNIHUBKEY/main/KeyReal"
-local Key = game:HttpGet(keyUrl)
+local key = game:HttpGet(keyUrl)
 
-if Key then
+if key then
     repeat
         wait()
     until game:IsLoaded()
@@ -16,9 +15,12 @@ if Key then
     else
         local kickMessage = "ยังไม่รองรับแมพนี้ไอ่สัส"
         game.Players.LocalPlayer:Kick(kickMessage)
-        wait(1)
+        wait(5)
         game:Shutdown()
     end
 else
-    warn("ไม่พบ Key ใน URL")
+    local kickMessage = "คีย์ไม่ถูกโปรดตรวจสอบคีย์ให้ดี"
+    game.Players.LocalPlayer:Kick(kickMessage)
+    wait(5)
+    game:Shutdown()
 end
